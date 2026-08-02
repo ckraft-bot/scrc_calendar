@@ -65,6 +65,116 @@
       "title": "Seven Bridges Marathon",
       "location": "Blue Rhino | 400 River St. Chattanooga, TN 37405",
       "website_link": "https://sevenbridgesmarathon.com/"
+    },
+    {
+      "name": "cam_run",
+      "date": "2026-08-29",
+      "start_time": "07:30",
+      "end_time": "22:00",
+      "type": "Race",
+      "title": "Cam Run 5K & Magnum Mile",
+      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
+      "website_link": "https://www.camrunchattanooga.com/"
+    },
+    {
+      "name": "grateful_gobbler",
+      "date": "2026-11-27",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "26th Annual Grateful Gobbler 5K Walk",
+      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
+      "website_link": "https://gratefulgobblerwalk.org/"
+    },
+    {
+      "name": "hungry_turkey",
+      "date": "2026-11-28",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "The Hungry Turkey",
+      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
+      "website_link": "https://www.runrhino.run/turkey-chattanooga"
+    },
+    {
+      "name": "rock_roll_vegas",
+      "date": "2027-02-20",
+      "start_time": "",
+      "end_time": "",
+      "type": "Race",
+      "title": "Rock N Roll Vegas 5K",
+      "location": "",
+      "website_link": "https://www.runrocknroll.com/events/las-vegas"
+    },
+    {
+      "name": "rock_roll_vegas",
+      "date": "2027-02-20",
+      "start_time": "",
+      "end_time": "",
+      "type": "Race",
+      "title": "Rock N Roll Vegas 10K & Half",
+      "location": "",
+      "website_link": "https://www.runrocknroll.com/events/las-vegas"
+    },
+    {
+      "name": "rock_roll_nashville",
+      "date": "2027-04-24",
+      "start_time": "",
+      "end_time": "",
+      "type": "Race",
+      "title": "Rock N Roll Nashville 5K, 10K, Half & Full",
+      "location": "",
+      "website_link": "https://www.runrocknroll.com/events/nashville?_gl=1*vb0h8l*_up*MQ..*_gs*MQ..&gbraid=0AAAAApmgbhnbNmufsJc6usteO3OTbRVKO"
+    },
+    {
+      "name": "rock_roll_nashville",
+      "date": "2027-04-25",
+      "start_time": "",
+      "end_time": "",
+      "type": "Race",
+      "title": "Rock N Roll Nashville 1 Mile",
+      "location": "",
+      "website_link": "https://www.runrocknroll.com/events/nashville?_gl=1*vb0h8l*_up*MQ..*_gs*MQ..&gbraid=0AAAAApmgbhnbNmufsJc6usteO3OTbRVKO"
+    },
+    {
+      "name": "peachtree",
+      "date": "2027-07-04",
+      "start_time": "06:00",
+      "end_time": "09:00",
+      "type": "Race",
+      "title": "2027 Northside Hospital Peachtree Road Race",
+      "location": "",
+      "website_link": "https://www.atlantatrackclub.org/peachtree"
+    },
+    {
+      "name": "around_the_crown",
+      "date": "2026-09-06",
+      "start_time": "07:30",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "Around the Crown 10K",
+      "location": "Truist Field | 324 South Mint St, Charlotte, NC 28202",
+      "website_link": "https://aroundthecrown10k.com/"
+    },
+    {
+      "name": "rocket_city",
+      "date": "2026-12-12",
+      "start_time": "07:00",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "Rocket City 5K & 10K",
+      "location": "Von Braun Center | 700 Monroe Street SW Huntsville, AL 35801 US",
+      "website_link": "https://aroundthecrown10k.com/"
+    },
+    {
+      "name": "rocket_city",
+      "date": "2026-12-13",
+      "start_time": "07:00",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "Rocket City Half & Full Marathon",
+      "location": "Von Braun Center | 700 Monroe Street SW Huntsville, AL 35801 US",
+      "website_link": "https://aroundthecrown10k.com/"
     }
   ]
 }
