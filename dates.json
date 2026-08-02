@@ -2,8 +2,8 @@
   "recurring_events": [
     {
       "name": "DAILY_GROUP_RUN",
-      "frequency": "DAILY",
-      "day": "SATURDAY",
+      "frequency": "WEEKDAYS",
+      "day": "MONDAY-FRIDAY",
       "start_time": "06:00",
       "end_time": "8:00",
       "type": "Group Run",
@@ -22,19 +22,10 @@
       "location": "Fast Break Athletics | 802 Hamilton Ave, Chattanooga, TN 37405",
       "website_link": ""
     },
-    // {
-    //   "name": "WEEKLY_TUESDAY_TRACK_WORKOUT",
-    //   "frequency": "WEEKLY",
-    //   "day": "TUESDAY",
-    //   "start_time": "18:00",
-    //   "end_time": "19:00",
-    //   "type": "Group Run",
-    //   "title": "Tuesday Track Workout"
-    // },
     {
       "name": "WEEKLY_HILL_RUN",
       "frequency": "MONTHLY_FIRST",
-      "day": "MONDAY",
+      "day": "WEDNESDAY",
       "start_time": "19:00",
       "end_time": "21:00",
       "type": "Group Run",
@@ -49,7 +40,7 @@
       "start_time": "18:00",
       "end_time": "20:00",
       "type": "Group Run",
-      "title": "lululemon Group Run",
+      "title": "Lululemon Group Run",
       "location": "Lululemon Warehouse Row | 1100 Market St. Suite 126 Chattanooga, TN 37402",
       "website_link": ""
     }
