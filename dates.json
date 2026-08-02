@@ -1,0 +1,79 @@
+{
+  "recurring_events": [
+    {
+      "name": "DAILY_GROUP_RUN",
+      "frequency": "DAILY",
+      "day": "SATURDAY",
+      "start_time": "06:00",
+      "end_time": "8:00",
+      "type": "Group Run",
+      "title": "6 AM crew",
+      "location": "Look at discord for details",
+      "website_link": ""
+    },
+    {
+      "name": "WEEKLY_SATURDAY_GROUP_RUN",
+      "frequency": "WEEKLY",
+      "day": "SATURDAY",
+      "start_time": "08:30",
+      "end_time": "12:00",
+      "type": "Group Run",
+      "title": "SCRC Group Run",
+      "location": "Fast Break Athletics | 802 Hamilton Ave, Chattanooga, TN 37405",
+      "website_link": ""
+    },
+    // {
+    //   "name": "WEEKLY_TUESDAY_TRACK_WORKOUT",
+    //   "frequency": "WEEKLY",
+    //   "day": "TUESDAY",
+    //   "start_time": "18:00",
+    //   "end_time": "19:00",
+    //   "type": "Group Run",
+    //   "title": "Tuesday Track Workout"
+    // },
+    {
+      "name": "WEEKLY_HILL_RUN",
+      "frequency": "MONTHLY_FIRST",
+      "day": "MONDAY",
+      "start_time": "19:00",
+      "end_time": "21:00",
+      "type": "Group Run",
+      "title": "Scenic Hillz Club",
+      "location": "Standifer Gap Park | 8327 Standifer Gap Rd, Chattanooga, TN 37421",
+      "website_link": ""
+    },
+    {
+      "name": "MONTHLY_GROUP_RUN",
+      "frequency": "MONTHLY_FIRST",
+      "day": "MONDAY",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "type": "Group Run",
+      "title": "lululemon Group Run",
+      "location": "Lululemon Warehouse Row | 1100 Market St. Suite 126 Chattanooga, TN 37402",
+      "website_link": ""
+    }
+  ],
+  "one_time_events": [
+    {
+      "name": "2026_chatt_autism_5k",
+      "date": "2026-08-15",
+      "start_time": "07:30",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "2026 Chattanooga Autism 5K",
+      "location": "Hubert Fry Center | 4301 Amnicola Hwy, Chattanooga, TN, US, 37406",
+      "website_link": "https://charity.pledgeit.org/CAC5k"
+    },
+    {
+      "name": "seven_bridges",
+      "date": "2026-10-26",
+      "start_time": "07:40",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "Seven Bridges Marathon",
+      "location": "Blue Rhino | 400 River St. Chattanooga, TN 37405",
+      "website_link": "https://sevenbridgesmarathon.com/"
+    }
+  ]
+}

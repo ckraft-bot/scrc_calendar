@@ -1,0 +1,11 @@
+# Recurring Event Constants
+# Format:
+# NAME = frequency | day | start_time | end_time | type | title
+
+WEEKLY_SATURDAY_GROUP_RUN = WEEKLY | SATURDAY | 08:00 | 09:00 | Group Run | Saturday Morning Group Run
+WEEKLY_TUESDAY_TRACK_WORKOUT = WEEKLY | TUESDAY | 18:00 | 19:00 | Group Run | Tuesday Track Workout
+MONTHLY_LONG_RUN = MONTHLY_FIRST | SATURDAY | 07:30 | 09:30 | Group Run | First Saturday Long Run
+
+# Optional race placeholders
+SEASON_OPENER_10K = ONE_TIME | 2026-09-12 | 07:00 | 10:00 | Race | Season Opener 10K
+FALL_HALF_MARATHON = ONE_TIME | 2026-11-08 | 07:00 | 12:00 | Race | Fall Half Marathon
