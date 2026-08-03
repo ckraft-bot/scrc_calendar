@@ -21,7 +21,11 @@ import json
 import re
 import uuid
 
-st.set_page_config(page_title="Scenic City Run Club Calendar", page_icon="🏃", layout="wide")
+st.set_page_config(page_title="Scenic City Run Crew Calendar", page_icon=":athletic_shoe:", layout="wide")
+
+THEME_BACKGROUND = st.get_option("theme.backgroundColor") or "#FFFFFF"
+THEME_SECONDARY_BACKGROUND = st.get_option("theme.secondaryBackgroundColor") or "#F5F5F5"
+THEME_TEXT = st.get_option("theme.textColor") or "#000000"
 
 # ---------------------------------------------------------------------------
 # Config: event type -> color
@@ -271,7 +275,7 @@ if st.sidebar.button("Reload Events From dates.json", use_container_width=True):
 # ---------------------------------------------------------------------------
 # Main area
 # ---------------------------------------------------------------------------
-st.title(":athletic_shoe: Scenic City Run Club Calendar")
+st.title(":athletic_shoe: Scenic City Run Crew Calendar")
 st.caption("Group runs in green, races in blue, everything else in red.")
 
 tab_calendar, tab_submit = st.tabs(["Calendar", "Submit an Event"])
@@ -335,7 +339,7 @@ with tab_calendar:
                 st.write(f"**Notes:** {matching['notes']}")
 
     st.divider()
-    with st.expander("Upcoming Events", expanded=True):
+    with st.expander("Upcoming Events", expanded=False):
         sorted_events = sorted(filtered_events, key=lambda e: e["start"])
         if not sorted_events:
             st.write("No events match the selected event type filters.")
@@ -347,9 +351,9 @@ with tab_calendar:
             when = f"{start_label} - {end_label}" if end_label else start_label
             st.markdown(
                 f"""
-                <div style="border-left: 5px solid {color}; padding: 6px 12px; margin-bottom: 6px; background-color: rgba(0,0,0,0.03); border-radius: 4px;">
+                <div style="border-left: 5px solid {color}; padding: 6px 12px; margin-bottom: 6px; background-color: {THEME_SECONDARY_BACKGROUND}; border-radius: 4px;">
                     <strong>{e['title']}</strong> &mdash; {e['type']}<br>
-                    <span style="color: gray; font-size: 0.85em;">{when}</span>
+                    <span style="color: {THEME_TEXT}; opacity: 0.65; font-size: 0.85em;">{when}</span>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -360,8 +364,6 @@ with tab_submit:
     st.write("Use this form to submit events directly to the calendar.")
 
     with st.form("event_intake_form", clear_on_submit=True):
-        submitter_name = st.text_input("Your name (optional)")
-        submitter_email = st.text_input("Your email (optional)")
         intake_title = st.text_input("Event name", placeholder="e.g. Thursday Hill Repeats")
         intake_type = st.selectbox("Event type", list(EVENT_COLORS.keys()), key="intake_type")
         intake_date = st.date_input("Date", value=date.today(), key="intake_date")
@@ -384,8 +386,6 @@ with tab_submit:
         if intake_submitted:
             if not intake_title:
                 st.error("Please complete event name.")
-            elif submitter_email and "@" not in submitter_email:
-                st.error("Please enter a valid email address.")
             elif not intake_all_day and intake_end_time <= intake_start_time:
                 st.error("End time must be after start time.")
             else:
@@ -407,3 +407,14 @@ with tab_submit:
 
                 st.session_state.events.append(new_event)
                 st.success("Thanks. Your event was added to the calendar.")
+
+st.divider()
+st.markdown(
+    f'''
+    <div style="text-align:center; color: {THEME_TEXT}; font-size: 0.85rem; padding: 0.75rem 0 0.25rem 0;">
+        Built by Claire Kraft · {datetime.now().year}
+    </div>
+    '''
+    ,
+    unsafe_allow_html=True,
+)
