@@ -164,7 +164,7 @@
       "type": "Race",
       "title": "Rocket City 5K & 10K",
       "location": "Von Braun Center | 700 Monroe Street SW Huntsville, AL 35801 US",
-      "website_link": "https://aroundthecrown10k.com/"
+      "website_link": "https://www.rocketcitymarathon.run/"
     },
     {
       "name": "rocket_city",
@@ -174,7 +174,17 @@
       "type": "Race",
       "title": "Rocket City Half & Full Marathon",
       "location": "Von Braun Center | 700 Monroe Street SW Huntsville, AL 35801 US",
-      "website_link": "https://aroundthecrown10k.com/"
+      "website_link": "https://www.rocketcitymarathon.run/"
+    },
+    {
+      "name": "lululemon_field_day",
+      "date": "2026-08-22",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "type": "Other",
+      "title": "Lululemon Field Day",
+      "location": "Miller Park | 928 Market St Chattanooga,TN",
+      "website_link": "https://www.eventbrite.ca/e/lululemon-field-day-tickets-1994984991814"
     }
   ]
 }
