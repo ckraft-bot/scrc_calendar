@@ -12,14 +12,25 @@
       "website_link": ""
     },
     {
-      "name": "WEEKLY_SATURDAY_GROUP_RUN",
-      "frequency": "WEEKLY",
-      "day": "SATURDAY",
-      "start_time": "08:30",
-      "end_time": "12:00",
+      "name": "MONTHLY_GROUP_RUN",
+      "frequency": "MONTHLY_FIRST",
+      "day": "MONDAY",
+      "start_time": "18:00",
+      "end_time": "20:00",
       "type": "Group Run",
-      "title": "SCRC Group Run",
-      "location": "Fast Break Athletics | 802 Hamilton Ave, Chattanooga, TN 37405",
+      "title": "Lululemon Group Run",
+      "location": "Lululemon Warehouse Row | 1100 Market St. Suite 126 Chattanooga, TN 37402",
+      "website_link": ""
+    },
+    {
+      "name": "SCRC_TRACK_NIGHT",
+      "frequency": "MONDAY_EXCEPT_FIRST_MONDAY_OF_MONTH", 
+      "day": "MONDAY",
+      "start_time": "18:30",
+      "end_time": "20:00",
+      "type": "Group Run",
+      "title": "SCRC Track Night",
+      "location": "Red Bank High School Track",
       "website_link": ""
     },
     {
@@ -34,14 +45,25 @@
       "website_link": ""
     },
     {
-      "name": "MONTHLY_GROUP_RUN",
-      "frequency": "MONTHLY_FIRST",
-      "day": "MONDAY",
-      "start_time": "18:00",
-      "end_time": "20:00",
+      "name": "WEEKLY_MEDITATION",
+      "frequency": "WEEKLY",
+      "day": "SUNDAY",
+      "start_time": "17:00",
+      "end_time": "17:30",
+      "type": "Other",
+      "title": "Yz Meditation",
+      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
+      "website_link": ""
+    },
+    {
+      "name": "WEEKLY_SATURDAY_GROUP_RUN",
+      "frequency": "WEEKLY",
+      "day": "SATURDAY",
+      "start_time": "08:30",
+      "end_time": "12:00",
       "type": "Group Run",
-      "title": "Lululemon Group Run",
-      "location": "Lululemon Warehouse Row | 1100 Market St. Suite 126 Chattanooga, TN 37402",
+      "title": "SCRC Group Run",
+      "location": "Fast Break Athletics | 802 Hamilton Ave, Chattanooga, TN 37405",
       "website_link": ""
     }
   ],
@@ -57,64 +79,44 @@
       "website_link": "https://charity.pledgeit.org/CAC5k"
     },
     {
-      "name": "seven_bridges",
-      "date": "2026-10-26",
-      "start_time": "07:40",
-      "end_time": "12:00",
-      "type": "Race",
-      "title": "Seven Bridges Marathon",
-      "location": "Blue Rhino | 400 River St. Chattanooga, TN 37405",
-      "website_link": "https://sevenbridgesmarathon.com/"
-    },
-    {
-      "name": "cam_run",
-      "date": "2026-08-29",
+      "name": "around_the_crown",
+      "date": "2026-09-06",
       "start_time": "07:30",
-      "end_time": "22:00",
-      "type": "Race",
-      "title": "Cam Run 5K & Magnum Mile",
-      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
-      "website_link": "https://www.camrunchattanooga.com/"
-    },
-    {
-      "name": "grateful_gobbler",
-      "date": "2026-11-27",
-      "start_time": "08:00",
       "end_time": "12:00",
       "type": "Race",
-      "title": "26th Annual Grateful Gobbler 5K Walk",
-      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
-      "website_link": "https://gratefulgobblerwalk.org/"
+      "title": "Around the Crown 10K",
+      "location": "Truist Field | 324 South Mint St, Charlotte, NC 28202",
+      "website_link": "https://aroundthecrown10k.com/"
     },
     {
-      "name": "hungry_turkey",
-      "date": "2026-11-28",
-      "start_time": "08:00",
-      "end_time": "12:00",
-      "type": "Race",
-      "title": "The Hungry Turkey",
-      "location": "Coolidge Park | 150 River St, Chattanooga, TN 37405",
-      "website_link": "https://www.runrhino.run/turkey-chattanooga"
+      "name": "lululemon_field_day",
+      "date": "2026-08-22",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "type": "Other",
+      "title": "Lululemon Field Day",
+      "location": "Miller Park | 928 Market St Chattanooga,TN",
+      "website_link": "https://www.eventbrite.ca/e/lululemon-field-day-tickets-1994984991814"
     },
     {
-      "name": "rock_roll_vegas",
-      "date": "2027-02-20",
-      "start_time": "",
-      "end_time": "",
+      "name": "peachtree",
+      "date": "2027-07-04",
+      "start_time": "06:00",
+      "end_time": "09:00",
       "type": "Race",
-      "title": "Rock N Roll Vegas 5K",
+      "title": "2027 Northside Hospital Peachtree Road Race",
       "location": "",
-      "website_link": "https://www.runrocknroll.com/events/las-vegas"
+      "website_link": "https://www.atlantatrackclub.org/peachtree"
     },
     {
-      "name": "rock_roll_vegas",
-      "date": "2027-02-20",
-      "start_time": "",
-      "end_time": "",
+      "name": "recidivism",
+      "date": "2026-09-19",
+      "start_time": "10:00",
+      "end_time": "14:00",
       "type": "Race",
-      "title": "Rock N Roll Vegas 10K & Half",
-      "location": "",
-      "website_link": "https://www.runrocknroll.com/events/las-vegas"
+      "title": "Running Down Recidivism",
+      "location": "Blue Goose Hollow | 935 Riverfront Pkwy, Chattanooga, TN 37402",
+      "website_link": "https://raceroster.com/events/2026/115114/running-down-recidivism"
     },
     {
       "name": "rock_roll_nashville",
@@ -137,24 +139,24 @@
       "website_link": "https://www.runrocknroll.com/events/nashville?_gl=1*vb0h8l*_up*MQ..*_gs*MQ..&gbraid=0AAAAApmgbhnbNmufsJc6usteO3OTbRVKO"
     },
     {
-      "name": "peachtree",
-      "date": "2027-07-04",
-      "start_time": "06:00",
-      "end_time": "09:00",
+      "name": "rock_roll_vegas",
+      "date": "2027-02-20",
+      "start_time": "",
+      "end_time": "",
       "type": "Race",
-      "title": "2027 Northside Hospital Peachtree Road Race",
+      "title": "Rock N Roll Vegas 5K",
       "location": "",
-      "website_link": "https://www.atlantatrackclub.org/peachtree"
+      "website_link": "https://www.runrocknroll.com/events/las-vegas"
     },
     {
-      "name": "around_the_crown",
-      "date": "2026-09-06",
-      "start_time": "07:30",
-      "end_time": "12:00",
+      "name": "rock_roll_vegas",
+      "date": "2027-02-20",
+      "start_time": "",
+      "end_time": "",
       "type": "Race",
-      "title": "Around the Crown 10K",
-      "location": "Truist Field | 324 South Mint St, Charlotte, NC 28202",
-      "website_link": "https://aroundthecrown10k.com/"
+      "title": "Rock N Roll Vegas 10K & Half",
+      "location": "",
+      "website_link": "https://www.runrocknroll.com/events/las-vegas"
     },
     {
       "name": "rocket_city",
@@ -177,14 +179,14 @@
       "website_link": "https://www.rocketcitymarathon.run/"
     },
     {
-      "name": "lululemon_field_day",
-      "date": "2026-08-22",
-      "start_time": "09:00",
-      "end_time": "10:00",
-      "type": "Other",
-      "title": "Lululemon Field Day",
-      "location": "Miller Park | 928 Market St Chattanooga,TN",
-      "website_link": "https://www.eventbrite.ca/e/lululemon-field-day-tickets-1994984991814"
+      "name": "seven_bridges",
+      "date": "2026-10-26",
+      "start_time": "07:40",
+      "end_time": "12:00",
+      "type": "Race",
+      "title": "Seven Bridges Marathon",
+      "location": "Blue Rhino | 400 River St. Chattanooga, TN 37405",
+      "website_link": "https://sevenbridgesmarathon.com/"
     }
   ]
 }
