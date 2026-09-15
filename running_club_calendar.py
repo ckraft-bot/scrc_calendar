@@ -171,6 +171,16 @@ def _generate_recurring_events(event_def, start_date, end_date):
                 month += 1
         return events
 
+    if frequency == "MONDAY_EXCEPT_FIRST_MONDAY_OF_MONTH" and weekday is not None:
+        current = start_date
+        while current <= end_date:
+            if current.weekday() == weekday and current != _first_weekday_of_month(
+                current.year, current.month, weekday
+            ):
+                events.append(_build_event(event_def, current))
+            current += timedelta(days=1)
+        return events
+
     return events
 
 
