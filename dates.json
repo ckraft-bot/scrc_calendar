@@ -179,8 +179,28 @@
       "website_link": "https://www.rocketcitymarathon.run/"
     },
     {
+      "name": "seven_bridges_shakeout",
+      "date": "2026-10-24",
+      "start_time": "8:00",
+      "end_time": "10:00",
+      "type": "Group Run",
+      "title": "7 Bridges Shakeout Run",
+      "location": "Party Bites Kitchen + Catering & Event Space | 806 East 12th Street Chattanooga, TN 37403",
+      "website_link": "Blue Rhino | 400 River St. Chattanooga, TN 37405"
+    },
+    {
+      "name": "crew_carb_chat",
+      "date": "2026-10-24",
+      "start_time": "18:00",
+      "end_time": "21:00",
+      "type": "Other",
+      "title": "Crew Carb and Chat",
+      "location": "Party Bites Kitchen + Catering & Event Space | 806 East 12th Street Chattanooga, TN 37403",
+      "website_link": "https://www.eventbrite.com/e/crew-carb-chat-tickets-2003039269375"
+    },
+    {
       "name": "seven_bridges",
-      "date": "2026-10-26",
+      "date": "2026-10-25",
       "start_time": "07:40",
       "end_time": "12:00",
       "type": "Race",
@@ -188,5 +208,6 @@
       "location": "Blue Rhino | 400 River St. Chattanooga, TN 37405",
       "website_link": "https://sevenbridgesmarathon.com/"
     }
+
   ]
 }
