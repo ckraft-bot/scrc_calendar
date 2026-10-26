@@ -349,12 +349,21 @@ with tab_calendar:
                 st.write(f"**Notes:** {matching['notes']}")
 
     st.divider()
-    with st.expander("Upcoming Events", expanded=False):
-        sorted_events = sorted(filtered_events, key=lambda e: e["start"])
-        if not sorted_events:
-            st.write("No events match the selected event type filters.")
+    today_iso = date.today().isoformat()
+    upcoming_events = sorted(
+        (e for e in filtered_events if e["start"][:10] >= today_iso), key=lambda e: e["start"]
+    )
+    past_events = sorted(
+        (e for e in filtered_events if e["start"][:10] < today_iso),
+        key=lambda e: e["start"],
+        reverse=True,
+    )
 
-        for e in sorted_events:
+    def _render_event_list(events_to_show, empty_message):
+        if not events_to_show:
+            st.write(empty_message)
+
+        for e in events_to_show:
             color = e["color"]
             start_label = _format_display_datetime(e["start"])
             end_label = _format_display_datetime(e.get("end")) if e.get("end") else ""
@@ -368,6 +377,12 @@ with tab_calendar:
                 """,
                 unsafe_allow_html=True,
             )
+
+    with st.expander("Upcoming Events", expanded=False):
+        _render_event_list(upcoming_events, "No upcoming events match the selected event type filters.")
+
+    with st.expander("Past Events", expanded=False):
+        _render_event_list(past_events, "No past events match the selected event type filters.")
 
 with tab_submit:
     st.subheader("Event Intake Form")
